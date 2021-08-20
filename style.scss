@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  --Red: hsl(0, 100%, 74%);
+  --Green: hsl(154, 59%, 51%);
+  --Blue: hsl(248, 32%, 49%);
+  --Dark-Blue: hsl(249, 10%, 26%);
+  --Grayish-Blue: hsl(246, 25%, 77%);
+}
+
+
+body {
+
+
+  background-image: url("/images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.container-fluid {
+  font-family: 'Poppins',
+    sans-serif;
+}
+
+h1,
+p {
+  color: white;
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.right-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form {
+  background-color: white;
+  border-radius: 10px;
+  padding: 0 4rem;
+}
+
+
+.form-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 100%;
+
+}
+
+.form-control {
+  width: 400px;
+  max-width: 100%;
+  padding: 1rem;
+  max-width: 100%;
+}
+
+form:first-child {
+  margin-top: 1rem;
+}
+
+.form-group {
+  width: 400px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 1.5rem;
+  max-width: 100%;
+
+
+}
+
+.left-column {
+  padding: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+}
+
+.bottom {
+  text-align: center;
+  padding: 10
+}
+
+.btn {
+  width: 400px;
+  margin-top: 1.5rem;
+  padding: 1rem;
+}
+
+span {
+  font-weight: bold;
+}
+
+
+.banner {
+  padding: 1rem;
+  background-color: hsl(248, 32%, 49%);
+  width: 529px;
+  max-width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.submit {
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.bottom-text {
+  font-size: 10px;
+}
+
+.active {
+  opacity: 0.3;
+}
+
+@media only screen and (max-width: 600px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .left-column {
+    padding: 3rem;
+    margin-top: 19rem;
+  }
+
+  .form-group {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .left-column>p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  form {
+    padding: 0;
+  }
+
+
+}
